@@ -8,3 +8,6 @@ anomáliák oldal, 1 kép - FSZ, SV
 rólunk oldal alapja - FSZ
 elérhetőségeink oldal, kép - SV
 homunkulusz oldal, története, elzárása - SV, FSZ
+veszélyesség logok - PB
+rólunk formázása
+
