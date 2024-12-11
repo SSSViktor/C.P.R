@@ -9,5 +9,10 @@ rólunk oldal alapja - FSZ
 elérhetőségeink oldal, kép - SV
 homunkulusz oldal, története, elzárása - SV, FSZ
 veszélyesség logok - PB
-rólunk formázása
-
+rólunk formázása - SV, FS
+szín paletta - FSZ
+legördülő lista - SV
+főoldal tablet, mobil - FSZ, SV
+homunkulusz, ottó rajzolás - PB
+anomáliák oldal tablet, mobil - FSZ
+homunkulusz oldal tablet - SV
