@@ -7,12 +7,14 @@ logo - PB
 anomáliák oldal, 1 kép - FSZ, SV
 rólunk oldal alapja - FSZ
 elérhetőségeink oldal, kép - SV
-homunkulusz oldal, története, elzárása - SV, FSZ
+homunkulusz oldal - SV
+homunkulusz oldal szövegek - FSZ
 veszélyesség logok - PB
-rólunk formázása - SV, FS
+rólunk formázása - SV, FSZ
 szín paletta - FSZ
 legördülő lista - SV
 főoldal tablet, mobil - FSZ, SV
 homunkulusz, ottó rajzolás - PB
 anomáliák oldal tablet, mobil - FSZ
 homunkulusz oldal tablet - SV
+piros szín homunkulusz oldalon - SV
