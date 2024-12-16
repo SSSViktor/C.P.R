@@ -18,3 +18,7 @@ homunkulusz, ottó rajzolás - PB
 anomáliák oldal tablet, mobil - FSZ
 homunkulusz oldal tablet - SV
 piros szín homunkulusz oldalon - SV
+jira - SV
+képek - SV
+sztori - PB
+
