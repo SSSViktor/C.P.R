@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #5B2323;
+}
+
+nav {
+    background-color: #a3a3a3fd;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(248, 247, 247);
+    font-weight: bold;
+    justify-content: center;
+    padding-top: 12px;
+    margin-left: 100px;
+}
+
+nav img{
+    width: 30px;
+    margin-left: 30px;
+
+}
+
+.header{
+    display: flex;
+}
+
+.header img{
+    height: 400px;
+    padding-top: 30px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.kecel{
+    color: #FFFFFF;
+    margin-left: 990px;
+}
+
+.szoveg{
+    background-color: #D9CAB3;
+    padding: 1px 25px;
+    margin: 20px;
+    font-size: 40px;
+    border-radius: 20px;
+}
