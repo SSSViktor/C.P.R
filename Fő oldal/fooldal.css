@@ -19,13 +19,13 @@ nav a {
     color: rgb(248, 247, 247);
     font-weight: bold;
     justify-content: center;
-    padding-top: 12px;
-    margin-left: 100px;
+    padding-top: 11px;
+    margin-left: 10%;
 }
 
 nav img{
     width: 30px;
-    margin-left: 30px;
+    margin-left: 2%;
 
 }
 
@@ -47,11 +47,11 @@ nav img{
     position: absolute;
     background-color: black;
     color: white;
-    padding: 130px 300px;
-    font-size: 60px;
+    padding: 110px 300px;
+    font-size: 300%;
     font-weight: bold;
-    border-radius: 15px;
-    margin-bottom: 420px;
+    border-radius: 26px;
+    margin-bottom: 35%;
 
 
 }
@@ -59,11 +59,11 @@ nav img{
 .content {
     position: absolute;
     max-width: 500px;
-    margin: 20px;
-    border-radius: 40px;
+    margin: 2%;
+    border-radius: 20px;
     height: 100px;
-    margin-left: 700px;
-    margin-top: 230px;
+    margin-left: 55%;
+    margin-top: 23%;
 }
 
 .content .description {
@@ -73,7 +73,7 @@ nav img{
     color: white;
     padding: 15px;
     border-radius: 30px;
-    height: 250px;
-    width: 370px;
-    font-size: 23px;
+    height: 300%;
+    width: 100%;
+    font-size: 180%;
 }
