@@ -42,9 +42,6 @@ header{
 u{
     color:white;
 }
-#container{
-    display: inline-block;
-}
 .list-group-item{
     border-color: white;
     background-color: black;
@@ -57,4 +54,14 @@ u{
 }
 .card{
     margin-top: 40px;
+    margin-left: 6%;
+    margin-right: 6%; 
+}
+#content{
+    display: flex;
+}
+@media screen and (max-width:1480px){
+    #content{
+        display: inline-block;
+    }    
 }
