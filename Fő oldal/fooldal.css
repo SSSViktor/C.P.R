@@ -39,19 +39,21 @@ nav img{
 .header img {
     display: flex;
     background-image: none;
-    height: 830px;
+    height: 837px;
     width: auto;
 }
 
 .header .title {
-    position: absolute;
+    text-align: center;
     background-color: black;
     color: white;
-    padding: 110px 300px;
+    padding: 0px;
     font-size: 300%;
     font-weight: bold;
-    border-radius: 26px;
+    border-radius: 23px;
     margin-bottom: 35%;
+    height: 40%;
+    width: 55%;
 
 
 }
@@ -75,5 +77,5 @@ nav img{
     border-radius: 30px;
     height: 300%;
     width: 100%;
-    font-size: 180%;
+    font-size: 27px;
 }
