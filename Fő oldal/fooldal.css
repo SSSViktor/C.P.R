@@ -40,14 +40,16 @@ nav img{
     display: flex;
     background-image: none;
     height: 837px;
-    width: auto;
+    width: 1270px;
 }
 
 .header .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     background-color: black;
     color: white;
-    padding: 0px;
     font-size: 300%;
     font-weight: bold;
     border-radius: 23px;
