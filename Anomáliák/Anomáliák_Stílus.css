@@ -12,21 +12,20 @@ nav {
     padding: 10px;
     text-align: center;
 }
- 
- 
+
+
 nav a {
     text-decoration: none;
     color: rgb(248, 247, 247);
     font-weight: bold;
     justify-content: center;
-    padding-top: 12px;
-    margin-left: 100px;
+    padding-top: 11px;
+    margin-left: 10%;
 }
- 
+
 nav img{
     width: 30px;
-    margin-left: 30px;
- 
+    margin-left: 2%;
 }
 
 header{
@@ -42,25 +41,38 @@ header{
 u{
     color:white;
 }
+
 .list-group-item{
     border-color: white;
     background-color: black;
     color: white;
 }
+
 .card-body{
     border-color: white;
     background-color: black;
     color: white;
 }
+
 .card{
     margin-top: 40px;
-    margin-left: 6%;
-    margin-right: 6%; 
+    margin-left: 5%;
+    margin-right: 5%; 
 }
+
 #content{
-    display: flex;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
 }
-@media screen and (max-width:1480px){
+
+@media screen and (max-width:1080px){
+    #content{
+        display: flex;
+    }    
+}
+
+@media screen and (max-width:800px){
     #content{
         display: inline-block;
     }    
