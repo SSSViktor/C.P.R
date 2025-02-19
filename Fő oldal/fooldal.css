@@ -53,9 +53,9 @@ nav img{
     font-size: 300%;
     font-weight: bold;
     border-radius: 23px;
-    margin-bottom: 35%;
+    margin-bottom: 9em;
     height: 30%;
-    width: 55%;
+    width: 60%;
 
 
 }
@@ -67,7 +67,7 @@ nav img{
     border-radius: 20px;
     height: 100px;
     margin-left: 55%;
-    margin-top: 23%;
+    margin-top: 10em;
 }
 
 .content .description {
