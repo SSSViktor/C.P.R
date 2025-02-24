@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elérhetőségek</title>
-    <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="Elér.css">
+    <link rel="stylesheet" href="../Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./Elér.css">
 </head>
 <body>
     <nav>
@@ -20,16 +20,22 @@
             <u><strong>Elérhetőségek</strong></u>
         </div>
     </header>
-    <div id="elérhetőség">
-        <p>Telefonszám: 06207291653 ✆<br>E-mail cím : cpr@gmail.com  ✉</p>
+    <div id="container">
+        <div id="divider">
+            <div id="elérhetőség" class="col">
+                <p>Telefonszám: 06207291653 ✆<br>E-mail cím : cpr@gmail.com  ✉</p>
+            </div>
+            <div id="veszély" class="col">
+                <strong>Vészhelyzet esetén</strong><br>
+                <strong>Telefonszám: 06301234567</strong>
+                <p>Ez a szám csak akkor hívható ha vészhelyzet van, ha szabálytalanul hívja fel a számot akkor meghal!</p>
+            </div>
+        </div>
+        <div id="térkép" class="col">
+            <img src="../IMG/map.png" alt="xd" height="300px">
+            <p id="map">Nyitvatartás: 0-24/7<br>Hely: Kecel, Puma utca 33.</p>
+        </div>
     </div>
-    <div id="térkép">
-        <img src="IMG/map.png" alt="xd" height="300px">
-        <p id="map">Nyitvatartás: 0-24/7<br>Hely: Kecel, Puma utca 33.</p>
-    </div>
-    <div id="Veszély">
-        <strong>Vészhelyzet esetén</strong>
-    </div>
-    <link rel="js" href="bootstrap.min.js">
+    <script src="../Bootstrap/bootstrap.min.js"></script>
 </body>
 </html>
