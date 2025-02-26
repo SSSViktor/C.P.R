@@ -1,9 +1,13 @@
 body {
+    background-color: #5b2323;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #5B2323;
+}  
+
+head{
+    background-color: #5b2323;
 }
 
 nav {
@@ -18,10 +22,8 @@ nav a {
     text-decoration: none;
     color: rgb(248, 247, 247);
     font-weight: bold;
-    justify-content: center;
     padding-top: 12px;
-    margin-left: 6%;
-    width: 100%;
+    margin-left: 5%;
 }
 
 nav img{
@@ -37,13 +39,14 @@ nav img{
 .header img{
     height: 40%;
     width: auto;
-    padding-top: 30px;
     border-radius: 20px;
     margin-left: 5%;
+    margin: 30px 26px;
 }
 
 .header .logo{
     padding-top: 10px;
+    margin: 30px 30px;
 }
 
 .kecel{
@@ -70,26 +73,17 @@ nav img{
 
 @media screen and (max-width:768px){
     .header img{
-        max-width: 57%;
-        height: 70%;
+        max-width: 60%;
+        height: auto;
     }
 }
 
 @media screen and (max-width:768px){
     .header .logo{
-        max-width: 30%;
-        height: 15%;
+        max-width: 21%;
+        height: auto;
     }
 }
 
-@media screen and (max-width:768px){
-    .kecel{
-        
-    }
-}
 
-@media screen and(max-width:324px){
-    nav a{
-        margin-left: 10%;
-    }
-}
+
