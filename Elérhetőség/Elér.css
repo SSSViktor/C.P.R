@@ -67,8 +67,6 @@ u{
     background-color:#D9D9D9;
     border: 5px solid black;
     border-radius: 20px;
-    position: relative;
-    bottom: 0;
 }
 
 #container{
@@ -77,5 +75,4 @@ u{
 
 #divider{
     display: block;
-
 }
