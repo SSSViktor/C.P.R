@@ -18,14 +18,13 @@ nav a {
     text-decoration: none;
     color: rgb(248, 247, 247);
     font-weight: bold;
-    justify-content: center;
-    padding-top: 11px;
+    padding-top: 12px;
     margin-left: 5%;
 }
 
 nav img{
     width: 30px;
-    margin-left: 2%;
+    margin-left: 1%;
 
 }
 
