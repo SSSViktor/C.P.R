@@ -27,3 +27,32 @@ nav img{
     margin-left: 1%;
 
 }
+
+#Főcím{
+    height: 400px;
+    text-align: center;
+}
+
+#Főcím p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+#Főcím strong{
+    font-size: 600%;
+    -webkit-text-stroke: 3px white;
+}
+
+#Főcím i{
+    font-size: 170%;
+    color: white;
+}
+
+#Főcím img{
+    width: 100%;
+}
+
+
