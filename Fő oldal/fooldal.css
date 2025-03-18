@@ -20,6 +20,7 @@ nav a {
     font-weight: bold;
     padding-top: 12px;
     margin-left: 5%;
+    font-size: 100%;
 }
 
 nav img{
@@ -36,10 +37,9 @@ nav img{
 }
 
 .header img {
-    display: flex;
     background-image: none;
-    height: 656px;
-    width: 1011px;
+    height: 655px;
+    width: 100%;
 }
 
 .header .title {
@@ -52,7 +52,7 @@ nav img{
     font-size: 300%;
     font-weight: bold;
     border-radius: 23px;
-    margin-bottom: 9em;
+    margin-bottom: 6em;
     height: 30%;
     width: 60%;
     border: 2px solid white;
@@ -82,6 +82,30 @@ nav img{
 
 @media screen and (max-width:1080px){
     .content .description{
-        font-size: 100%;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .content .description{
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:768px){
+    nav a{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .content .description{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:320px){
+    nav a{
+        font-size: 11px;
     }
 }
