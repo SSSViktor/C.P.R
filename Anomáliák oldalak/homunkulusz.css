@@ -29,6 +29,7 @@ nav img{
 }
 
 #Főcím{
+    position: relative;
     text-align: center;
     margin-bottom: 0;
 }
@@ -88,5 +89,12 @@ nav img{
 }
 
 #Képek img{
-    width: 200px;
+    width: 30%;
+}
+
+#Képek{
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-inline: 10%;
 }
