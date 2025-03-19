@@ -18,14 +18,13 @@ nav a {
     text-decoration: none;
     color: rgb(248, 247, 247);
     font-weight: bold;
-    justify-content: center;
-    padding-top: 11px;
-    margin-left: 10%;
+    padding-top: 12px;
+    margin-left: 5%;
 }
 
 nav img{
     width: 30px;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 
 header{
@@ -52,18 +51,26 @@ u{
     border-color: white;
     background-color: black;
     color: white;
+    
 }
 
 .card{
     margin-top: 40px;
     margin-left: 5%;
-    margin-right: 5%; 
+    margin-right: 5%;
+    padding: 2px;
 }
 
 #content{
     display: inline-block;
     width: 100%;
     margin: 0;
+}
+
+@media screen and (min-width:1200px) {
+    nav a{
+        font-size: 140%;
+    }
 }
 
 @media screen and (max-width:1080px){
@@ -76,4 +83,9 @@ u{
     #content{
         display: inline-block;
     }    
+}
+@media screen and (max-width:435px) {
+    nav a{
+        font-size: 70%;
+    }
 }
