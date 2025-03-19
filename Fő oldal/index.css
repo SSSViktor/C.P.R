@@ -20,7 +20,7 @@ nav a {
     font-weight: bold;
     padding-top: 12px;
     margin-left: 5%;
-    font-size: 100%;
+    font-size: 20px;
 }
 
 nav img{
@@ -52,7 +52,7 @@ nav img{
     font-size: 300%;
     font-weight: bold;
     border-radius: 23px;
-    margin-bottom: 6em;
+    margin-bottom: 9em;
     height: 30%;
     width: 60%;
     border: 2px solid white;
@@ -77,20 +77,16 @@ nav img{
     border-radius: 30px;
     height: auto;
     width: 100%;
-    font-size: 200%;
+    font-size: 220%;
 }
 
-@media screen and (max-width:1080px){
-    .content .description{
-        font-size: 25px;
-    }
-}
 
 @media screen and (max-width:768px){
     .content .description{
-        font-size: 21px;
+        font-size: 26px;
     }
 }
+
 
 @media screen and (max-width:768px){
     nav a{
@@ -105,7 +101,55 @@ nav img{
 }
 
 @media screen and (max-width:320px){
+    .header .title{
+        font-size: 15px;
+        margin-bottom: 60%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .header .title{
+        font-size: 25px;
+        margin-bottom: 70%;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .header .title{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:320px){
     nav a{
-        font-size: 11px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    nav img{
+        width:7%;
+        height: auto;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (min-width:1080px){
+    .header img{
+        height: 1016px;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .header img{
+        height: 960px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .header img{
+        height: 430px;
     }
 }
