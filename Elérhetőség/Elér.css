@@ -88,9 +88,58 @@ u{
     width: 100%;
 }
 
+@media screen and (min-width:1400px) {
+    #térkép{
+        width: 60%;
+    }
+    #elérhetőség{
+        font-size: 200%;
+        margin-bottom: 30%;
+    }
+    #veszély{
+        font-size: 200%;
+    }
+    #filler{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #térkép{
+        height: 600px;
+    }
+    #filler{
+        height: 60%;
+    }
+}
+
 @media screen and (min-width:1100px) {
     #térkép{
         width: 80%;
+    }
+}
+
+@media screen and (min-width:400px) {
+    #térkép{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:430px) {
+    nav a{
+        font-size: 80%;
+    }
+    #container{
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    nav a{
+        font-size: 70%;
+    }
+    #container{
+        margin-left: 4%;
     }
 }
 

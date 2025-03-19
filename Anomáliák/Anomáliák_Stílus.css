@@ -67,6 +67,12 @@ u{
     margin: 0;
 }
 
+@media screen and (min-width:1200px) {
+    nav a{
+        font-size: 140%;
+    }
+}
+
 @media screen and (max-width:1080px){
     #content{
         display: flex;
@@ -77,4 +83,9 @@ u{
     #content{
         display: inline-block;
     }    
+}
+@media screen and (max-width:435px) {
+    nav a{
+        font-size: 70%;
+    }
 }
