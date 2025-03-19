@@ -88,14 +88,6 @@ u{
     width: 100%;
 }
 
-
-
-@media screen and (min-width:1500px) {
-    #elérhetőség{
-        margin-bottom: 0;
-    }
-}
-
 @media screen and (min-width:1400px) {
     #térkép{
         width: 60%;
