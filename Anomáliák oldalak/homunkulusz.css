@@ -66,13 +66,14 @@ nav img{
     background-color: black;
     color: white;
     border-radius: 5px;
-    width: 400px;
-    height: 70px;
-    text-align: center;
-    font-size: 200%;
+    width: 60%;
+    height: 100px;
+    text-align: center; 
+    font-size: 400%;
     letter-spacing: 10px;
     box-shadow: 10px 10px #451B1B;
     margin-bottom: 15px;
+    padding-top: 20px;
 }
 
 .Szöveg{
@@ -80,16 +81,23 @@ nav img{
     width: 60%;
     border: 3px solid black;
     border-radius: 5px;
+    font-size: 200%;
+    padding: 10px;
 }
 
 #Alcím{
     letter-spacing: 15px;
-    font-size: 150%;
+    font-size: 300%;
     text-align: center;
 }
 
 #Képek img{
-    width: 30%;
+    width: 25%;
+    box-shadow: 10px 10px 10px #451B1B;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
 }
 
 #Képek{
@@ -97,4 +105,30 @@ nav img{
     display: inline-flex;
     justify-content: space-between;
     margin-inline: 10%;
+}
+
+#Alcím{
+    color: white;
+}
+
+footer{
+    background-color: black;
+}
+
+#Történet{
+    margin-left: 3%;
+}
+
+#Történet img{
+    position: absolute;
+    left: 30%;
+
+}
+
+#Elzárás{
+    margin-left: 6%;
+}
+
+#Veszély{
+    margin-left: 9%;
 }
