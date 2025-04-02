@@ -20,6 +20,7 @@ nav a {
     font-weight: bold;
     padding-top: 12px;
     margin-left: 5%;
+    font-size: 20px;
 }
 
 nav img{
@@ -116,6 +117,7 @@ footer{
 }
 
 #Történet{
+    padding-top: 40px;
     margin-left: 3%;
     position: relative;
 }
@@ -123,13 +125,41 @@ footer{
 #Történet img{
     position: absolute;
     left: 60%;
-    top: 50%;
+    top: 40%;
+    width: 360px;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 #Elzárás{
     margin-left: 6%;
+    margin-top: 40px;
+    position: relative;
+}
+
+#Elzárás .Szöveg{
+    height: 200px;
+}
+
+#Elzárás img{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    width: 360px;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 
 #Veszély{
     margin-left: 9%;
+    margin-top: 40px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+#Veszély img{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    width: 360px;
 }
