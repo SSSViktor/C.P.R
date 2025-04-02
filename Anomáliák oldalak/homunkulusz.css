@@ -117,12 +117,13 @@ footer{
 
 #Történet{
     margin-left: 3%;
+    position: relative;
 }
 
 #Történet img{
     position: absolute;
-    left: 30%;
-
+    left: 60%;
+    top: 50%;
 }
 
 #Elzárás{
