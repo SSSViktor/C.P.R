@@ -37,31 +37,103 @@ nav img {
 
 .header img {
     border-radius: 20px;
-    margin-left: 20%;
-    margin: 30px 26px;
-    height: 600px;
+    margin: 30px;
+    height: 670px;
     width: auto;
+    margin-bottom: 0%;
 
 }
 
 .header .logo {
-    height: 600px;
+    height: 670px;
     width: auto;
-    margin-left: 0%;
+    margin-left: 5%;
 }
 
 .kecel {
     color: #FFFFFF;
-    margin-left: 76%;
+    margin-left: 73%;
     height: 100%;
     font-size: 1.7vw;
 }
 
 .szoveg {
     background-color: #D9CAB3;
-    padding: 100px 20px;
+    padding: 20px 20px;
     margin: 20px;
-    font-size: 1.5vw;
+    font-size: 55px;
     border-radius: 20px;
 }
 
+@media screen and (max-width:768px){
+    nav a{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .header img{
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .header .logo{
+        height: 260px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .kecel{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .szoveg{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:320px){
+    nav a{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px){
+    nav img{
+        width:7%;
+        height: auto;
+        margin-left: 0%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .header img{
+       height: 115px;
+       margin: 30px 5px;
+       margin-bottom: 0%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .header .logo{
+       height: 115px;
+       margin-left: 2%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .kecel{
+       font-size: 10px;
+       margin-left: 60%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .szoveg{
+       font-size: 14px;
+    }
+}
