@@ -93,7 +93,7 @@ nav img{
 }
 
 #Képek img{
-    width: 25%;
+    width: 100%;
     box-shadow: 10px 10px 10px #451B1B;
     margin-bottom: 15px;
     margin-top: 10px;
@@ -163,6 +163,11 @@ footer{
     left: 65%;
     top: -28%;
     width: 500px;
+}
+
+#Képek a{
+    width: 388px;
+    height: 239.23px;
 }
 
 @media screen and (max-width:1027px){
