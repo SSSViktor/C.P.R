@@ -73,7 +73,7 @@ nav img{
     font-size: 400%;
     letter-spacing: 10px;
     box-shadow: 10px 10px #451B1B;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     padding-top: 20px;
 }
 
@@ -160,10 +160,9 @@ footer{
 
 #Veszély img{
     position: absolute;
-    left: 60%;
-    top: 40%;
-    width: 360px;
-    display: none;
+    left: 65%;
+    top: -28%;
+    width: 500px;
 }
 
 @media screen and (max-width:1027px){
@@ -202,6 +201,10 @@ footer{
     #Alcím{
         font-size: 170%;
         padding-top: 10px;
+    }
+    #Veszély img{
+        top: 35%;
+        left: 65%;
     }
     }
 
