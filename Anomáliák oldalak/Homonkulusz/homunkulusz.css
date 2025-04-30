@@ -55,6 +55,7 @@ nav img{
 
 #Főcím img{
     width: 100%;
+    height: 1000px;
 }
 
 #content{
@@ -160,8 +161,8 @@ footer{
 
 #Veszély img{
     position: absolute;
-    left: 60%;
-    top: 40%;
+    left: 70%;
+    top: 15%;
     width: 360px;
     border: 5px solid black;
     border-radius: 10px;
@@ -212,6 +213,9 @@ footer{
         top: 35%;
         left: 65%;
     }
+    #Főcím img{
+        height: 500px;
+    }
     }
 
 @media screen and (max-width:550px){
@@ -242,6 +246,10 @@ footer{
     #Veszély .Cím{
         width: 90%;
     }
+    #Veszély img{
+        left: 67%;
+        top: 27%;
+    }
     nav a{
         font-size: 10px;
     }
@@ -251,5 +259,8 @@ footer{
     #Képek img{
         margin-top: 0px;
         border-radius: 5px;
+    }
+    #Főcím img{
+        height: 300px;
     }
 }
