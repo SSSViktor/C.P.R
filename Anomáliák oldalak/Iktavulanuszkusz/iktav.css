@@ -55,7 +55,7 @@ nav img{
 
 #Főcím img{
     width: 100%;
-    height: 500px;
+    height: 1000px;
 }
 
 #content{
@@ -208,7 +208,7 @@ footer{
         left: 65%;
     }
     #Főcím img{
-        height: 330px;
+        height: 500px;
     }
     }
 
@@ -243,11 +243,18 @@ footer{
     nav a{
         font-size: 10px;
     }
+    nav img{
+        height: 30px;
+        width: auto;
+    }
     #Alcím{
         padding-top: 10px;
     }
     #Képek img{
         margin-top: 0px;
         border-radius: 5px;
+    }
+    #Főcím img{
+        height: 300px;
     }
 }
